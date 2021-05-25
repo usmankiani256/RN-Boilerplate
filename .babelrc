@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./App"],
+        "extensions": [".js", ".json"],
+        "alias": {
+          "@": "./App",
+          "Assets": "./App/Assets",
+          "Fonts": "./App/Assets/Fonts",
+          "Images": "./App/Assets/Images",
+          "Components": "./App/Components",
+          "Config": "./App/Config",
+          "Navigators": "./App/Navigators",
+          "Services": "./App/Services",
+          "Store": "./App/Store",
+          "Actions": "./App/Store/Actions",
+          "Reducers": "./App/Store/Reducers",
+          "Formatter": "./App/Utils/Formatter",
+          "Theme": "./App/Theme",
+          "Utils": "./App/Utils",
+          "Hooks": "./App/Utils/CustomHooks",
+          "Views": "./App/Views",
+          "Atoms": "./App/Components/Atoms",
+          "Molecules": "./App/Components/Molecules",
+          "Organisms": "./App/Components/Organisms"
+        }
+      }
+    ]
+  ]
+}
